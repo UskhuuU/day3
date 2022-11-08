@@ -1,12 +1,54 @@
-const Log_in = () => {
-    return (  <>
-        <img src="https://factorialhr.co.uk/wp-content/uploads/2022/02/21172841/imgonline-com-ua-CompressToSize-6AYMq7wDHaN.jpg" width="2270vw"Height="1150vh"/>
-        <h1>team. </h1>
-        <p>Instant collaborations<br/> for remote teams</p>
-        <a>All in one for your remote team chats, </a><br/><a>collaboration and track projects</a><br/>
-        <input type="email" placeholder="Email" id='in1'/>
-        <button id='bx'>Get early access</button>
-    </>)
-}
+import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import { useContext } from "react";
+import { darkModeContext } from "../App";
 
-export default Log_in
+const Log_in = () => {
+  const { isDarkMode } = useContext(darkModeContext);
+
+  const styles = {
+    box: {
+      backgroundColor: isDarkMode ? "black" : "white",
+      color: isDarkMode ? "white" : "black",
+    },
+  };
+  return (
+    <div style={styles.box}>
+      <Container>
+        <Row>
+          <Col xs={12} md={8}>
+            team.
+          </Col>
+          <Col xs={6} md={4} style={{ gap: "100px" }}>
+            Products Services Contact Log in{" "}
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={6}>Blog posts</Col>
+        </Row>
+        <Row>
+          <Col>
+            <Col xs={6}>
+              Our latest updates and blogs about managing your team
+            </Col>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={6} md={4}>
+            col3
+          </Col>
+          <Col xs={6} md={4}>
+            col4
+          </Col>
+          <Col xs={6} md={4}>
+            col5
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+};
+
+export default Log_in;
