@@ -1,243 +1,52 @@
-h1 {
-  margin-top: -1150px;
-  color: white;
-  font-size: 58px;
-  margin-left: 100px;
+#container{
+  margin-top:20px ;
+  border: 2px solid gray;
+  border-radius: 5px;
 }
-
-#p1 {
-  font-size: 58px;
-  color: white;
-  margin-left: 100px;
-  margin-top: 300px;
-  margin-top: -900px;
+#myname{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid gray;
+border-right: hidden;
+border-top: hidden;
+border-left: hidden;
+  height: 50px;
 }
+#users{
+  height: 1120px;
+  border: 2px solid gray;
+  border-left: hidden;
+  border-top: hidden;
+  border-bottom: hidden;
+  overflow: scroll;
 
-#a1 {
-  font-size: 24px;
-  color: rgb(254, 253, 253);
-  margin-left: 100px;
-  margin-top: 100px;
 }
-
-#a2 {
-  font-size: 24px;
-  color: rgb(254, 253, 253);
-  margin-left: 100px;
-  margin-top: 100px;
-}
-
-#in1 {
-  width: 316px;
+#user-image-border{
+  width: 56px;
   height: 56px;
-  font-size: 24px;
-  margin-left: 100px;
-  margin-top: 100px;
+  border-radius: 100%;
 }
-
-#bx {
-  background-color: aqua;
-  color: white;
-  font-size: 18px;
-  width: 163px;
-  height: 60px;
-  border: 1px solid rgb(2, 2, 2);
-  margin-left: 10px;
-}
-
-.App {
-  margin-left: 1700px;
-  z-index: 1;
-  
-}
-
-#img {
-  margin-top: -4px;
-  z-index: 0;
-}
-
-body {
-  background-color: rgb(255, 255, 255);
-}
-
-#h2 {
-  font-size: 48px;
-  margin-top: 500px;
-}
-
-
-
-#p2 {
-  font-size: 18px;
-  color: gray;
-  width: 765px;
-  margin: 50px;
-
-}
-
-#img1 {
-  width: 700px;
-  height: 600px;
-  margin-left: 800px;
-  margin-top: -300px;
-}
-
-#img2 {
-  width: 800px;
-  height: 500px;
-}
-
-#p3 {
-  font-size: 58px;
-  margin-left: 1000px;
-  margin-top: -380px;
-}
-
-#p4 {
-  font-size: 18px;
-  width: 500px;
-  margin-left: 1000px;
-  color: gray;
-}
-
-#mnb {
-  background-color: aqua;
-}
-
-#pr {
-  color: black;
-  background-color: white;
-  margin-left: 100px;
-}
-
-
-
-#p5 {
-  font-size: 48px;
-  margin-top: 500px;
-}
-
-#p6 {
-  font-size: 18px;
-  color: gray;
-}
-#img3{
-margin-top: 300px;
-}
-#p7{
-  font-size: 48px;
-  margin-left: 800px;
-  margin-top: 100px;
-}
-#footer{
-  background-color:#252B3B;
-  color: aliceblue;
-  width: 2270px;
-}
-#logo{
-  font-family: Mulish;
-font-size: 30px;
-font-weight: 800;
-color: white;
-margin: 0px;
-}
-#input{
-  height: 56px;
-width: 280px;
-border-radius: 4px;
-}
-#border1{
-  margin: 50px;
-  Width:366px;
-  Height:374px;
-  box-shadow: 0 0 5px 5px gray;
-  font-size: 18px;
-  background-color: white;
-}
-#br{
-width: 356px;
-height: 56px;
-}
-#img4{
-  width: 96px;
-  height: 96px;
-  
-  margin-left: 20px;
-}
-#m{
-  margin-top: -60px;
-  margin-left: 150px;
-}
-#w{
-  color: black;
-}
-
-#row1{
+#display{
   display: flex;
   flex-direction: row;
-  margin-left: 170px;
-}
-#row2{
-  display: flex;
-  flex-direction: row; 
-  margin-left: 170px;
-}
-
-#pic1{
-  margin-left: -5px;
-}
-#p10{
-  font-size: 30px;
-  color: black;
-  margin-left: 210px;
   margin-top: 10px;
 }
-#p11{
-  font-size: 48px;
-   margin-left: 210px;
-   margin-top: 30px;
+#user-image-border2{
+  width: 300px;
+  border-radius: 100%;
 }
-#p12{
-color:gray;
-font-size: 18px;
-margin-top: 30px;
-margin-left: 210px;
+#profile{
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-top: 250px;
 }
-#custom-switch{
-  margin-top: -17px;
-  margin-left: -10px;
+#about{
+ margin-left: 80px;
+ margin-top: 10px;
+ font-size: 20px;
 }
-#p13{
-  margin-left: 650px;
-  font-size: 48px;
-  color: black;
-}
-#img5{
-width: 900px;
-height: 450px;
-
-margin-left: 600px;
-}
-#p14{
-  font-size: 18px;
-  color: gray;
-  margin-left: 650px;
-  width: 700px;
-}
-#p15{
-  font-size: 24px;
-  margin-left: 700px;
-  color: gray;
-}
-#im{
-  width: 630px;
-  height: 148px;
- 
-}
-#in{
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin-left: 700px;
-  
+#display:hover{
+  background-color: rgb(244, 240, 240);
 }
